@@ -1,0 +1,2 @@
+(this.webpackJsonp=this.webpackJsonp||[]).push([[240],{"1b66f42a5b9824a7991e":function(s){s.exports={display:"Display",handwriting:"Handwriting",monospaced:"Monospaced",sans_serif:"Sans Serif",script:"Script",serif:"Serif"}}}]);
+//# sourceMappingURL=en-typefaceCollections-json.abc391108ba4ac08ec72.bundle.js.map

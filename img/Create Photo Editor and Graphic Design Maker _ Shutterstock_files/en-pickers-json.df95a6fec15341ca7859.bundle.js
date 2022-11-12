@@ -1,0 +1,2 @@
+(this.webpackJsonp=this.webpackJsonp||[]).push([[230],{"217aa5b5938a8d9baa94":function(r){r.exports={add_color:"Add color",brand_color_palettes:"Brand color palettes",bright_gradients:"Bright gradients",delete_color:"Delete color",grey_gradients:"Grey gradients",muted_and_light_gradients:"Muted and light gradients",rainbow_colors:"Rainbow Colors",reset_color_change:"Reset color change",solid:"Solid",transparent:"Transparent",whisker_grow:"Whisker Grow",your_colors:"Your Colors"}}}]);
+//# sourceMappingURL=en-pickers-json.df95a6fec15341ca7859.bundle.js.map
