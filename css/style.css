@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #4f84c4;
+  color: #9b2321;
   transition: 0.3s;
 }
 
@@ -48,13 +48,19 @@ h6 {
   margin-top: 100px;
 }
 
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  } 
+
 /**************************************/
 /********** Back to Top CSS ***********/
 /**************************************/
 .back-to-top {
   position: fixed;
   display: none;
-  background: #4f84c4;
+  background: #9b2321;
   color: #ffffff;
   width: 45px;
   height: 45px;
@@ -122,7 +128,7 @@ h6 {
 
 #nav .nav-link:hover,
 #nav .nav-link.active {
-  color: #4f84c4;
+  color: #9b2321;
   background: #ffffff;
   transition: none;
 }
@@ -154,6 +160,13 @@ h6 {
   #nav .navbar {
     background: rgba(0, 0, 0, 1) !important;
   }
+
+
+  @media (max-width:629px) {
+      img#navsingle {
+    display: none !important;
+      }
+    } 
 
   #nav a.nav-link {
     padding: 5px;
@@ -199,7 +212,7 @@ h6 {
 }
 
 .header .carousel-content h2 {
-  color: #4f84c4;
+  color: #9b2321;
   font-size: 45px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -218,7 +231,7 @@ h6 {
   padding: 12px 30px;
   color: #ffffff;
   border-radius: 0;
-  background: #4f84c4;
+  background: #9b2321;
 }
 
 .header .carousel-content .btn:hover {
@@ -335,7 +348,7 @@ h6 {
 
 .about .btn:hover,
 .single .btn:hover {
-  background: #4f84c4;
+  background: #9b2321;
 }
 
 /**************************************/
@@ -358,7 +371,7 @@ h6 {
   position: relative;
   width: 100%;
   padding: 30px 15px;
-  background: #4f84c4;
+  background: #9b2321;
 }
 
 .service .service-icon i {
@@ -393,7 +406,7 @@ h6 {
 .call-to-action {
   position: relative;
   padding: 90px 0;
-  background: #4f84c4;
+  background: #9b2321;
 }
 
 .call-to-action .container {
@@ -414,7 +427,7 @@ h6 {
 
 .call-to-action .btn {
   padding: 15px 30px;
-  color: #4f84c4;
+  color: #9b2321;
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 1px;
@@ -507,7 +520,7 @@ h6 {
 }
 
 .pricing .price-details li i.ion-md-checkmark {
-  color: #4f84c4;
+  color: #9b2321;
   margin-right: 8px;
 }
 
@@ -532,11 +545,11 @@ h6 {
 }
 
 .pricing .price-btn:hover {
-  background: #4f84c4;
+  background: #9b2321;
 }
 
 .pricing .features-price-btn {
-  background: #4f84c4;
+  background: #9b2321;
 }
 
 .pricing .features-price-btn:hover {
@@ -544,7 +557,7 @@ h6 {
 }
 
 .pricing .features-price .price-plan {
-  background: #4f84c4;
+  background: #9b2321;
 }
 
 .pricing .features-price .price-plan p {
@@ -603,7 +616,7 @@ h6 {
 }
 
 .skills .progress .progress-bar {
-  background: #4f84c4;
+  background: #9b2321;
   border-radius: 0;
 }
 
@@ -614,7 +627,7 @@ h6 {
   position: relative;
   width: 100%;
   padding: 90px 0;
-  background: #4f84c4;
+  background: #9b2321;
 }
 
 .counters i {
@@ -658,6 +671,11 @@ h6 {
   overflow: hidden;
 }
 
+.img-fluid-portofolio {
+  height: 300px;
+  width: 100%;
+}
+
 .portfolio .portfolio-item .link-preview,
 .portfolio .portfolio-item .link-details {
   position: absolute;
@@ -667,7 +685,7 @@ h6 {
   text-align: center;
   width: 45px;
   height: 35px;
-  background: #4f84c4;
+  background: #9b2321;
   border: 1px solid #ffffff;
   transition: 0.3s;
   opacity: 0;
@@ -682,7 +700,7 @@ h6 {
 .portfolio .portfolio-item .link-preview:hover,
 .portfolio .portfolio-item .link-details:hover {
   background: #ffffff;
-  border: 1px solid #4f84c4;
+  border: 1px solid #9b2321;
 }
 
 .portfolio .portfolio-item .link-preview:hover i,
@@ -770,7 +788,7 @@ h6 {
   text-align: center;
   width: 35px;
   height: 35px;
-  background: #4f84c4;
+  background: #9b2321;
   border: 1px solid #ffffff;
 }
 
@@ -781,7 +799,7 @@ h6 {
 
 .team .team-item .team-social a:hover {
   background: #ffffff;
-  border: 1px solid #4f84c4;
+  border: 1px solid #9b2321;
 }
 
 .team .team-item .team-social a:hover i {
@@ -877,7 +895,7 @@ h6 {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #4f84c4;
+  background-color: #9b2321;
 }
 
 @media (max-width: 575px) {
@@ -925,7 +943,7 @@ h6 {
 }
 
 .clients .owl-dot.active {
-  background-color: #4f84c4;
+  background-color: #9b2321;
 }
 
 /**************************************/
@@ -963,7 +981,7 @@ h6 {
 
 .contact .form input:focus,
 .contact .form textarea:focus {
-  border-color: #4f84c4 transparent #4f84c4 transparent;
+  border-color: #9b2321 transparent #9b2321 transparent;
 }
 
 .contact .form button[type="submit"] {
@@ -973,7 +991,7 @@ h6 {
 }
 
 .contact .form button[type="submit"]:hover {
-  background: #4f84c4;
+  background: #9b2321;
 }
 
 .contact .map {
@@ -1012,7 +1030,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #ffffff;
-  color: #4f84c4;
+  color: #9b2321;
   line-height: 1;
   padding: 9px 0;
   margin-right: 4px;
@@ -1023,7 +1041,7 @@ h6 {
 }
 
 .footer .footer-top .social-links a:hover {
-  background: #4f84c4;
+  background: #9b2321;
   color: #ffffff;
 }
 
@@ -1075,7 +1093,7 @@ h6 {
 }
 
 .footer .footer-top .footer-links ul a:hover {
-  color: #4f84c4;
+  color: #9b2321;
 }
 
 .footer .footer-top .footer-contact p {
@@ -1096,7 +1114,7 @@ h6 {
   width: 40%;
   padding: 6px 0;
   text-align: center;
-  color: #4f84c4;
+  color: #9b2321;
   border: 1px solid #ffffff;
   background: #ffffff;
   transition: 0.3s;
@@ -1105,8 +1123,8 @@ h6 {
 
 .footer .footer-top .footer-newsletter input[type="submit"]:hover {
   color: #ffffff;
-  background: #4f84c4;
-  border: 1px solid #4f84c4;
+  background: #9b2321;
+  border: 1px solid #9b2321;
 }
 
 .footer .footer-top .footer-newsletter p {
@@ -1134,7 +1152,7 @@ h6 {
   font-family: lobster, sans-serif;
   font-size: 48px;
   border-bottom: #999999 1px solid;
-  color: #4f84c4;
+  color: #9b2321;
   margin-top: 40px;
   margin-bottom: 20px;
 }
