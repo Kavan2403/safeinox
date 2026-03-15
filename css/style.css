@@ -1260,3 +1260,56 @@ h6 {
 .custom-tabs1 {
   background-color: lightblue;
 }
+
+/*.client-name {
+  display:inline-block;
+  padding:10px 20px;
+  margin:8px;
+  border:2px solid #ff3b3b;
+  border-radius:30px;
+  font-weight:600;
+  color:#222;
+}*/
+
+.trusted-section{
+  padding:80px 20px;
+  background:#f9fafc;
+  text-align:center;
+}
+
+.trusted-title{
+  font-size:36px;
+  font-weight:700;
+  margin-bottom:10px;
+}
+
+.trusted-title span{
+  color:#ff3b3b;
+}
+
+.trusted-subtitle{
+  font-size:18px;
+  color:#666;
+  margin-bottom:40px;
+}
+
+.trusted-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.trusted-card{
+  background:white;
+  padding:25px;
+  font-size:18px;
+  font-weight:600;
+  border-radius:10px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.08);
+  transition:all 0.3s ease;
+}
+
+.trusted-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
